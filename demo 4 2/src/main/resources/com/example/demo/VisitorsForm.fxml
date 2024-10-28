@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox prefHeight="382.0" prefWidth="537.0" xmlns="http://javafx.com/javafx/17.0.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.VisitorsController">
+    <children>
+        <HBox prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#onAddClick" text="Добавить">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#onDeleteClick" text="Удалить" />
+            </children>
+        </HBox>
+        <TableView fx:id="mainTable" prefHeight="430.0" prefWidth="538.0" VBox.vgrow="ALWAYS" />
+    </children>
+</VBox>
